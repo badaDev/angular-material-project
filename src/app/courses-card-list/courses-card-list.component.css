@@ -1,0 +1,46 @@
+
+
+.course-card {
+  margin: 20px 10px;
+  max-width: 400px;
+}
+
+.course-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.course-actions button {
+  margin-right: 5px;
+}
+
+.course-thumbnail {
+  max-width:474px;
+  max-height: 267px;
+}
+
+
+.long-description {
+  min-height: 50px;
+  max-width: 442px;
+}
+
+mat-card-content p {
+  padding: 10px;
+}
+
+.handset-portrait .course-card {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding:  16px 0 !important;
+}
+
+.handset-portrait .course-thumbnail {
+  width: 100%;
+  margin: 0;
+}
+
+.handset-portrait .long-description {
+  padding: 10px 10px 0 10px;
+}
+
